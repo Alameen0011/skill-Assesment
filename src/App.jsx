@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import SalesPage from "./pages/salesPage";
-import VoucherPrintPage from "./pages/VoucherPrintPage";
+import VoucherPrintPage from "./pages/VoucherPrintPage"
 
 
 function App() {
