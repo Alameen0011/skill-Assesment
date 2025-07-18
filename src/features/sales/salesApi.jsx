@@ -12,13 +12,7 @@ export const salesApi = createApi({
                 body:data
             })
         }),
-        createDetails: builder.mutation({
-            query:(data) => ({
-                url: '/detail',
-                method: 'POST',
-                body:data
-            })
-        }),
+      
         getItemMaster: builder.query({
             query: () => "/item"
         })
